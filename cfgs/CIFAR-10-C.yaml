@@ -1,0 +1,13 @@
+name: CIFAR-10-C
+model_size: ViT-B/16
+optimize_method:
+  lr: 1e-3
+  name: AdamW
+  steps: 1
+  beta: 0.9
+  wd: 0.01
+batch_size: 200
+num_workers: 4
+ctx_init: a_photo_of_a
+selection: 
+  choice: Ture
