@@ -1,7 +1,7 @@
 # Bilateral Information-aware Test-time Adaptation for Vision-Language Models
 
 ## Overview
-This repository contains the implementation of BITTA for image classification with a pre-trained CLIP.
+This repository contains the official implementation of BITTA for image classification with a pre-trained CLIP.
 ![](docs/pipeline.png)
 ## Prerequisites
 
@@ -13,7 +13,7 @@ To evaluate on ImageNet-C (which has 1000 classes), you will need a GPU with mor
 To evaluate other datasets (with less than a few hundred classes), a GPU with 16GB memory will work fine. 
 
 ### Environment 
-This codebase is built on [TPT](https://github.com/azshue/TPT). Please refer to it for setup. 
+The code is tested on PyTorch 1.7.1.
 
 ### Datasets 
 Supported datasets:
@@ -54,3 +54,6 @@ year={2026},
 url={https://openreview.net/forum?id=vv8EcCoBfr}
 }
 ```
+
+## Acknowledgements
+We thank the authors of [TPT](https://github.com/azshue/TPT) and [BAT](https://github.com/sarthaxxxxx/BATCLIP) for their open-source implementation and instructions on data preparation.
