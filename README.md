@@ -42,3 +42,13 @@ An example to run BITTA :
 ```
 bash tta.sh.
 ```
+
+## Citation
+@inproceedings{
+sun2026bilateral,
+title={Bilateral Information-aware Test-time Adaptation for Vision-Language Models},
+author={Jingwei Sun, Jianing Zhu, Jiangchao Yao, Gang Niu, Masashi Sugiyama, Bo Han},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=vv8EcCoBfr}
+}
