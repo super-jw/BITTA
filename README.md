@@ -36,11 +36,11 @@ BITTA
 
 ## Run BITTA
 
-We provide bash scripts in `tta.sh`.
+We provide bash scripts in `BITTA.sh`.
 
 An example to run BITTA :
 ```
-bash tta.sh.
+bash BITTA.sh.
 ```
 
 ## Citation
